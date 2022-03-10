@@ -1,5 +1,6 @@
 {
   "name": "MK X Spam",
+  "description": "Spamming Bots by MK",
   "logo": "https://te.legra.ph/file/a2beccc714b5f011dd42d.jpg",
   "keywords": [
     "telegram",
@@ -12,14 +13,6 @@
   ],
   "repository": "https://github.com/ERR0rMK/PythonBot13",
   "env": {
-    "ENV": {
-      "description": "Setting this to ANYTHING will enable heroku.",
-      "value": "ANYTHING"
-    },
-    "ABUSE": {
-      "value": "ON",
-      "required": false
-    },
     "APP_ID": {
       "description": "Get this value from my.telegram.org",
       "value": ""
@@ -68,7 +61,7 @@
       "description": "Make a bot from @BotFather and paste the bot token here.",
       "value": ""
     },
-    "HANDLER": {
+    "CMD_HNDLR": {
       "description": "Your command handler. Default is ' . ' (dot).",
       "value": "."
     },
