@@ -1,0 +1,113 @@
+{
+  "name": "MK X Spam",
+  "logo": "https://te.legra.ph/file/a2beccc714b5f011dd42d.jpg",
+  "keywords": [
+    "telegram",
+    "userbot",
+    "plugin",
+    "telethon",
+    "pythonbot13",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/ERR0rMK/PythonBot13",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable heroku.",
+      "value": "ANYTHING"
+    },
+    "ABUSE": {
+      "value": "ON",
+      "required": false
+    },
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org",
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "Make a bot from @BotFather and paste the bot token here.",
+      "value": ""
+    },
+    "BOT_TOKEN2": {
+      "description": "Make a bot from @BotFather and paste the bot token here.",
+      "value": ""
+    },
+    "BOT_TOKEN3": {
+      "description": "Make a bot from @BotFather and paste the bot token here.",
+      "value": ""
+    },
+    "BOT_TOKEN4": {
+      "description": "Make a bot from @BotFather and paste the bot token here.",
+      "value": ""
+    },
+    "BOT_TOKEN5": {
+      "description": "Make a bot from @BotFather and paste the bot token here.",
+      "value": ""
+    },
+    "BOT_TOKEN6": {
+      "description": "Make a bot from @BotFather and paste the bot token here.",
+      "value": ""
+    },
+    "BOT_TOKEN7": {
+      "description": "Make a bot from @BotFather and paste the bot token here.",
+      "value": ""
+    },
+    "BOT_TOKEN8": {
+      "description": "Make a bot from @BotFather and paste the bot token here.",
+      "value": ""
+    },
+    "BOT_TOKEN9": {
+      "description": "Make a bot from @BotFather and paste the bot token here.",
+      "value": ""
+    },
+    "BOT_TOKEN10": {
+      "description": "Make a bot from @BotFather and paste the bot token here.",
+      "value": ""
+    },
+    "HANDLER": {
+      "description": "Your command handler. Default is ' . ' (dot).",
+      "value": "."
+    },
+    "HEROKU_API_KEY": {
+      "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API. Required for updater to work.",
+      "value": ""
+    },
+    "HEROKU_APP_NAME": {
+      "description": "The Value of App Name you filled in right on top. Required for updater to work.",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Owner Id",
+      "value": ""
+    },
+    "SUDO_USER": {
+      "description": "Sudo users id - Seperated By Space",
+      "value": ""
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "heroku/python"
+  }]
+}
