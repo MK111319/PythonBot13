@@ -8,11 +8,12 @@
       "plugin",
       "telethon",
       "PythonBot13",
-      "SpamBots"
+      "modular",
+      "productivity"
     ],
     "repository": "https://github.com/ERR0rMK/PythonBot13",
     "env": {
-      "API_ID": {
+      "APP_ID": {
         "description": "Get this value from my.telegram.org",
         "value": ""
       },
@@ -85,12 +86,9 @@
       "plan": "heroku-postgresql",
       "options": {
         "version": "12"
-        }
-     }
-    ],
-    "buildpacks": [
-        {
+      }
+    }],
+    "buildpacks": [{
       "url": "heroku/python"
-        }
-    ]
+    }]
   }
