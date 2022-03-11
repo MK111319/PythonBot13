@@ -1,9 +1,9 @@
 <p align="center">
+  <h1 align="center">
+    <b>ᴍᴋ X sᴘᴀᴍ</b>
+  </h1>
   <img src="https://te.legra.ph/file/a2beccc714b5f011dd42d.jpg" alt="BOT-SPAM Logo">
 </p>
-<h1 align="center">
-  <b>ᴍᴋ X sᴘᴀᴍ</b>
-</h1>
 
 # Deploy on heroku
 
