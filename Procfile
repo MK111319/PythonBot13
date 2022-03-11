@@ -1,1 +1,0 @@
-Mig: python -m MKSpam
